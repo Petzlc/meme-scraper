@@ -1,0 +1,19 @@
+{
+  "name": "node-meme-scraper-spring-2024-atvie",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "eslint-config-upleveled": "^8.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}
