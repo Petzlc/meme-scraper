@@ -2,10 +2,10 @@
 
 ## TODO
 
-- [ ] Create a repo on github
-- [ ] Add 'memes' directory to the .gitignore file
-- [ ] Create a new directory called 'memes' in the root
-- [ ] Connect to https://memegen-link-examples-upleveled.netlify.app/
+- [x] Create a repo on github
+- [x] Add 'memes' directory to the .gitignore file
+- [x] Create a new directory called 'memes' in the root
+- [x] Connect to https://memegen-link-examples-upleveled.netlify.app/
   - [ ] Fetch the HTML
 - [ ] Extract the <img> elements from HTML
   - [ ] Extract the 'src' strings from the <img> (The image URLs)
