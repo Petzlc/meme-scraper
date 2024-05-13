@@ -28,7 +28,7 @@ const imgElements = document.querySelectorAll('img');
 // fetchData(apiUrl);
 
 // Create directory
-const dirPath = './memes';
+const dirPath = 'memes/';
 if (!fs.existsSync(dirPath)) {
   fs.mkdirSync(dirPath);
 

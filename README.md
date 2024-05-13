@@ -6,6 +6,9 @@
 - [x] Add 'memes' directory to the .gitignore file
 - [x] Create a new directory called 'memes' in the root
 - [x] Connect to https://memegen-link-examples-upleveled.netlify.app/
+- [x] figure out how to download a meme from the webpage
+- [x] figure out how to save the meme in the right directory
+- [ ] figure out how to fetch several memes from the webpage
   - [ ] Fetch the HTML
 - [ ] Extract the <img> elements from HTML
   - [ ] Extract the 'src' strings from the <img> (The image URLs)

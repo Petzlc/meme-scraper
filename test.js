@@ -1,5 +1,7 @@
+import * as cheerio from 'cheerio';
 import fs from 'fs';
 import https from 'https';
+import fetch from 'node-fetch';
 
 const urlMeme =
   'https://api.memegen.link/images/bad/your_meme_is_bad/and_you_should_feel_bad.jpg';
@@ -12,7 +14,7 @@ const urlMeme =
     console.log('Done');
   });
 });*/
-const dirPath = './memes';
+const dirPath = 'memes/';
 
 // Check if the directory exists
 if (!fs.existsSync(dirPath)) {
@@ -25,7 +27,7 @@ if (!fs.existsSync(dirPath)) {
 }
 
 https.get(urlMeme, (res) => {
-  const fileStream = fs.createWriteStream('01.jpg');
+  const fileStream = fs.createWriteStream(`${dirPath} 01.jpg`);
   res.pipe(fileStream);
   fileStream.on('finish', function () {
     fileStream.close();
