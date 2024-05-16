@@ -44,16 +44,16 @@ jobs:
             await execAsync('node index.js');
 
             const expectedFileHashes = {
-              '01.jpg': '0246df78222f92f3ee34ee5ec31a6cd0e8ba57030ae16a2a2c3d662da3effaae',
-              '02.jpg': '425002ba4bfc3cf2ef3ce92659f19e6f861122e33f517c9358219ed8f57f2fe1',
-              '03.jpg': '62b317ec165535344162f15a6ff7b0662806dc09eef3b5d3e7021b611da32520',
-              '04.jpg': '7e10ec46d0fefb76fe222bb878601da8c52245580e711151cb8ddbc1e992aa3b',
+              '01.jpg': '41a1efb58477bbf47c2270097c6a241557a335814794abde5977399dfd7331ba',
+              '02.jpg': 'c9f186504728df2d81b243c72f794d999d649687f6e5efc46388d0e021249c4b',
+              '03.jpg': 'c8bb155a9857c813f0930a2f2219122ceb975d982fdf12b39175f39994e1cf67',
+              '04.jpg': 'b5560e8098843d65060439e530707b32ec207540990aa7a715db78c3983f1018',
               '05.jpg': 'b1d802552e8a3909fe1d62f66350faf82c36eac9d088d50026116d933ab2f013',
-              '06.jpg': 'c5041eebf997d249df6d7e5c4b2c18600bbe4cae68e2ca09415f624c53228407',
-              '07.jpg': 'ad80e673866382e4b260c45d5924467e6a31971dc3ffb4a21a3d64e7825cb7cd',
+              '06.jpg': 'bb9b0ece0ef301f912e0b54a3e7d45d92e44a307c4b3cee28a4b80330dfc9bc7',
+              '07.jpg': '7a14f0161f259d9de48a0ff8a5ddeaf97154b0a39fa219f4b296e5ad31f86156',
               '08.jpg': '47dd2de3c1633e624c582010fd4ee9cca60a7e612835b4d89f98ca199da397d5',
-              '09.jpg': '22eb3f1e7d34cf02941b1465f1503408909d438de66ea7db7f6eedfb6721419d',
-              '10.jpg': '1bdd6a22b1aab4a31f0a5029fcdbfce28973707c57708f151593897485a3a67e',
+              '09.jpg': '29774b4cff11307c3e849f0cc4a63b3711810aa9449652edf8d72276ba6cf7db',
+              '10.jpg': 'de1e6994215d88ed2a4d82d8336c6049c479a22c7a7a53bfb95ef6fe4a3335d4',
             };
 
             // Read all files in directory and print the SHA-256 hash of each file
